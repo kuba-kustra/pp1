@@ -25,3 +25,11 @@ GBP = {
         }
     ]
 }
+
+for rate in GBP['rates']:
+    print(rate['effectiveDate'], rate['mid'])
+
+
+
+
+
